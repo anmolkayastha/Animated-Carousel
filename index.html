@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylehsheet"> 
+    <link rel="stylehsheet" href="style.css" > 
     <title>Image Carousel</title>
 </head>
 <body>
-    <div class="carousel">
-        <button class="carousel-button next"></button>
-        <button class="carousel-button prev"></button>
-        <ul>
+    <div class="carousel" data-carousel>
+        <button class="carousel-button next" data-carousel-button>&#8656;</button>
+        <button class="carousel-button prev" data-carousel-button>&#8658;</button>
+        <ul data-slides>
             <li class="slide">
-              <img src="https://unsplash.com/photos/04P38oaPUsU" alt="Nature Image 1">
+              <img src="/img/forest.jpg" alt="Nature Image 1">
             </li>
 
             <li class="slide">
-                <img src="https://unsplash.com/photos/04P38oaPUsU" alt="Nature Image 1">
+                <img src="/img/hill.jpg" alt="Nature Image 1">
               </li>
 
               <li class="slide">
-                <img src="https://unsplash.com/photos/04P38oaPUsU" alt="Nature Image 2">
+                <img src="/img/snowy_forest.jpg" alt="Nature Image 2">
               </li>
 
-              <li class="slide">
-                <img src="https://unsplash.com/photos/04P38oaPUsU" alt="Nature Image 3">
-              </li>
         </ul>
     </div>
 </body>
